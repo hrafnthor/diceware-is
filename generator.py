@@ -7,7 +7,7 @@ def calculate(cursor, gap, increments):
 
 
 def get_line_number(cursor):
-    return calculate(cursor, 1512, 10000) \
+    return calculate(cursor, 1296, 10000) \
            + calculate(cursor, 216, 1000) \
            + calculate(cursor, 36, 100) \
            + calculate(cursor, 6, 10) \
